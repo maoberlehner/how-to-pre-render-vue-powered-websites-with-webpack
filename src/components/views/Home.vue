@@ -6,6 +6,13 @@
         {{ intro }}
       </p>
     </div>
+    <div class="Home__content-blocks">
+      <app-content-block
+        v-for="contentBlock in contentBlocks"
+        :key="contentBlock.id"
+        v-bind="contentBlock"
+      />
+    </div>
   </div>
 </template>
 
@@ -16,12 +23,18 @@ import { GET_LANDING_PAGE } from '../../store/action-types';
 import { HOME } from '../../models/landing-page';
 import landingPage from '../../store/modules/landing-page';
 
+import AppContentBlock from '../app/AppContentBlock.vue';
+
 const STORE_NAMESPACE = `landingPage/home`;
 
 export default {
   name: `Home`,
+  components: {
+    AppContentBlock,
+  },
   computed: {
     ...mapState(STORE_NAMESPACE, [
+      `contentBlocks`,
       `intro`,
       `title`,
     ]),
@@ -48,6 +61,12 @@ export default {
 .Home {
   &__hero {
     max-width: 36em;
+  }
+
+  &__content-blocks {
+    > :not(:last-child) {
+      margin-bottom: 4em;
+    }
   }
 }
 </style>
