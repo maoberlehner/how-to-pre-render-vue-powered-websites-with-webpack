@@ -1,5 +1,6 @@
 import api from '../utils/api';
 import { responseAdapter as contentBlockResponseAdapter } from './content-block';
+import { responseAdapter as teaserResponseAdapter } from './teaser';
 
 // This is the ID of the landing
 // page we've created earlier.
@@ -12,11 +13,13 @@ export class LandingPage {
     contentBlocks = [],
     id = null,
     intro = ``,
+    teasers = ``,
     title = ``,
   } = {}) {
     this.contentBlocks = contentBlocks;
     this.id = id;
     this.intro = intro;
+    this.teasers = teasers;
     this.title = title;
   }
 }
@@ -31,8 +34,15 @@ export function responseAdapter(response) {
 
   const contentBlocks = fields.contentBlocks
     .map(x => contentBlockResponseAdapter(x));
+  const teasers = fields.teaser
+    .map(x => teaserResponseAdapter(x));
 
-  return new LandingPage({ ...fields, ...sys, contentBlocks });
+  return new LandingPage({
+    ...fields,
+    ...sys,
+    contentBlocks,
+    teasers,
+  });
 }
 
 // We wrap the Contentful API client to format
