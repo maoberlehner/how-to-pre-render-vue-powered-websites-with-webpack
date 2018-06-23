@@ -8,6 +8,12 @@
           to="/"
         >
           Home
+        </router-link> |
+        <router-link
+          class="p-2 text-dark"
+          to="/about"
+        >
+          About
         </router-link>
       </nav>
     </div>
