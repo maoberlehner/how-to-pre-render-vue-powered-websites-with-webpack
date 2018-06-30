@@ -16,11 +16,11 @@ Pull requests are the greatest contributions, so be sure they are focused in sco
 1. To begin, [fork this project], clone your fork, and add our upstream.
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/building-landing-pages-with-vue-and-a-headless-cms
+   git clone https://github.com/<your-username>/how-to-pre-render-vue-powered-websites-with-webpack
    # Navigate to the newly cloned directory
-   cd building-landing-pages-with-vue-and-a-headless-cms
+   cd how-to-pre-render-vue-powered-websites-with-webpack
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/maoberlehner/building-landing-pages-with-vue-and-a-headless-cms
+   git remote add upstream https://github.com/maoberlehner/how-to-pre-render-vue-powered-websites-with-webpack
    # Install the tools necessary for development
    yarn install
    ```
@@ -49,8 +49,8 @@ Pull requests are the greatest contributions, so be sure they are focused in sco
 
 4. Now [open a pull request] with a clear title and description.
 
-[already been reported]: https://github.com/maoberlehner/building-landing-pages-with-vue-and-a-headless-cms/issues
-[fork this project]:     https://github.com/maoberlehner/building-landing-pages-with-vue-and-a-headless-cms/fork
+[already been reported]: https://github.com/maoberlehner/how-to-pre-render-vue-powered-websites-with-webpack/issues
+[fork this project]:     https://github.com/maoberlehner/how-to-pre-render-vue-powered-websites-with-webpack/fork
 [live example]:          http://codepen.io/pen
 [open a pull request]:   https://help.github.com/articles/using-pull-requests/
 [reduced test case]:     https://css-tricks.com/reduced-test-cases/

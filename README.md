@@ -1,9 +1,9 @@
-# Building Landing Pages with Vue.js and a Headless CMS
+# How to Pre-render Vue.js Powered Websites With webpack
 
 [![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/maoberlehner)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/maoberlehner)
 
-This is an example project for the following article: [Building Landing Pages with Vue.js and a Headless CMS](https://markus.oberlehner.net/blog/building-landing-pages-with-vue-and-a-headless-cms/)
+This is an example project for the following article: [How to Pre-render Vue.js Powered Websites With webpack](https://markus.oberlehner.net/blog/how-to-pre-render-vue-powered-websites-with-webpack/)
 
 ## Build Setup
 
