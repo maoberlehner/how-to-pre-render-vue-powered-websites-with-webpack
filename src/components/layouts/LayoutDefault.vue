@@ -1,5 +1,8 @@
 <template>
-  <div class="LayoutDefault">
+  <div
+    id="app"
+    class="LayoutDefault"
+  >
     <div class="d-flex align-items-center p-3 mb-3 mb-md-5 bg-white border-bottom box-shadow">
       <span class="mr-auto">Fancy Company</span>
       <nav class="ml-auto">

@@ -1,9 +1,9 @@
 <template>
   <div class="AppTeaser card">
     <img
-      class="card-img-top"
       :src="imageSrc"
       :srcset="imageSrcset"
+      class="card-img-top"
     >
     <div class="card-body">
       <h5 class="card-title">{{ title }}</h5>
@@ -28,7 +28,7 @@ export default {
     },
     link: {
       type: String,
-      default: '',
+      default: ``,
     },
     text: {
       type: String,
