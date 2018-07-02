@@ -21,6 +21,15 @@ npm run build
 npm run serve-production
 ```
 
+## Instant deploy to Netlify
+
+By clicking this button you can automatically clone this repository, setup a new site in [Netlify](https://www.netlify.com) and run the build and deployment to the Netlify CDN.
+
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/maoberlehner/how-to-pre-render-vue-powered-websites-with-webpack)
+
+
+
 ## About
 
 ### Author
